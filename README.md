@@ -5,5 +5,5 @@ A small calculator for operations of addition, subtraction, multiplication, divi
 Available commands:
 Fraction + mathematical operation + fraction
 
-Fraction format: x/y
+Fraction format: x/y   
 Mathematical operations: +, -, *, /
