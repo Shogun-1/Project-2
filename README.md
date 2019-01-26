@@ -7,7 +7,7 @@ Available command: **fraction** ***mathematical operation*** **fraction**
 **Fraction** format: x/y   
 ***Mathematical operations***: +, -, *, /
 
-Example:
+Example:  
 1/2 + 1/4 // Output: 3/4  
 5/2 / 2/5 // 25/4  
 3/5 - 4/0 // Invalid argument  
