@@ -2,7 +2,7 @@
 
 A small calculator for rational numbers; automatic fraction reduction is being supported.
 
-Available command: **fraction** **mathematical operation*** **fraction**
+Available command: **fraction** ***mathematical operation*** **fraction**
 
 **Fraction** format: x/y   
 ***Mathematical operations***: +, -, *, /
