@@ -9,7 +9,7 @@ Available command: **fraction** ***mathematical operation*** **fraction**
 
 Examples:  
 1/2 + 1/4  
-// Output: 3/4  
+// 3/4  
 
 5/2 / 2/5  
 // 25/4  
