@@ -15,7 +15,7 @@ Examples:
 // 25/4  
 
 3/5 - 4/0  
-// Invalid argument  
+// Denominator must not be equal to zero 
 
 5/7 / 0/3  
-// Division by zero  
+// Denominator must not be equal to zero
