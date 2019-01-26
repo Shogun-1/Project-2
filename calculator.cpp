@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void CheckDen (const int& den)
+void CheckDen (const int& den) // Checking that denominator is not equal to zero
 {
 	if (den == 0)
 	{
@@ -13,20 +13,24 @@ void CheckDen (const int& den)
 	}
 }
 
-int NOD (int a, int b){
+int NOD (int a, int b) // Finding the greatest common divisor
+{
 	a = abs (a);
 	b = abs (b);
-  while (a > 0 && b > 0) {
-    if (a > b) {
-      a %= b;
-    } else {
-      b %= a;
-    }
-  }
-  return a + b;
+  	while (a > 0 && b > 0) {
+    		if (a > b) 
+		{
+      			a %= b;
+    		} 
+		else 
+		{
+      			b %= a;
+   	 	}
+	}
+	return a + b;
 }
 
-int NOK (int a, int b)
+int NOK (int a, int b) // Finding the least common multiple
 {
 	a = abs (a);
 	b = abs (b);
@@ -57,7 +61,7 @@ public:
     	}
     	else
     	{
-    		int result = abs (p / nod);
+    		int result = abs (p / nod); // Fraction reduction
     		double p_double = p;
     		double q_double = q;
     		if (p_double / q_double < 0)
@@ -85,6 +89,7 @@ private:
     int q;
 };
 
+// A lot if operator overloadings for the Rational class
 Rational operator+ (const Rational& lhs, const Rational& rhs)
 {
 	int nok = NOK (lhs.Denominator(), rhs.Denominator());
@@ -177,7 +182,7 @@ int main()
 	{
 		CheckDen (d.Numerator());
 		cout << n / d;
-	}} catch (exception& ex) {
+	} } catch (exception& ex) {
 		cout << ex.what();
 	}
 	return 0;
