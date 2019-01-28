@@ -59,9 +59,9 @@ public:
     	{
     		q = 1;
     	}
-    	else
+    	else // // Fraction reduction
     	{
-    		int result = abs (p / nod); // Fraction reduction
+    		int result = abs (p / nod);
     		double p_double = p;
     		double q_double = q;
     		if (p_double / q_double < 0)
@@ -89,7 +89,7 @@ private:
     int q;
 };
 
-// A lot if operator overloadings for the Rational class
+// Operator overloadings for the Rational class
 Rational operator+ (const Rational& lhs, const Rational& rhs)
 {
 	int nok = NOK (lhs.Denominator(), rhs.Denominator());
