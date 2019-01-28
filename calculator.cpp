@@ -59,7 +59,7 @@ public:
     	{
     		q = 1;
     	}
-    	else // // Fraction reduction
+    	else // Fraction reduction
     	{
     		int result = abs (p / nod);
     		double p_double = p;
