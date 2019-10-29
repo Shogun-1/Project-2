@@ -1,4 +1,4 @@
-# Project-2
+# calculator
 
 A small calculator for rational numbers; automatic fraction reduction is being supported.
 
